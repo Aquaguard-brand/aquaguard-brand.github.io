@@ -3,56 +3,56 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>AquaGuard</title>
+  <title>AquaGuard – Clean Water. Anytime. Anywhere.</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      text-align: center;
-      background-color: #f2f2f2;
-      color: #222;
+      background-color: #f4f4f4;
       margin: 0;
       padding: 0;
+      text-align: center;
     }
-    .header {
-      background: url("aquaguard-logo.png") no-repeat center;
-      background-size: contain;
-      height: 200px;
-      margin-top: 50px;
+    header {
+      background-image: url("aquaguard-logo.png");
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 100px 20px;
     }
-    .tagline {
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+    p.tagline {
       font-size: 1.2em;
-      color: #777;
-      margin: 10px 0;
     }
-    .product-image {
-      margin-top: 30px;
-    }
-    .product-image img {
-      width: 250px;
-      height: auto;
-    }
-    .footer {
-      background-color: #0046ad;
-      color: #fff;
+    main {
       padding: 20px;
-      margin-top: 40px;
+    }
+    img.product {
+      max-width: 90%;
+      height: auto;
+      margin: 30px 0;
+    }
+    footer {
+      background-color: #0b3d91;
+      color: white;
+      padding: 15px;
+      font-size: 0.9em;
     }
   </style>
 </head>
 <body>
-  <h1>AquaGuard</h1>
-  <p class="tagline">Clean Water. Anytime. Anywhere.</p>
-
-  <div class="product-image">
-    <img src="aquaguard-product.jpg" alt="AquaGuard Filter Product">
-  </div>
-
-  <p>
-    AquaGuard is your trusted solution for clean water on the go – ideal for hiking, camping, traveling, and emergency use.
-  </p>
-
-  <div class="footer">
-    Contact: <a href="mailto:info@aquaguardofficial.com" style="color: white;">info@aquaguardofficial.com</a>
-  </div>
+  <header>
+    <h1>AquaGuard</h1>
+    <p class="tagline"><em>Clean Water. Anytime. Anywhere.</em></p>
+  </header>
+  <main>
+    <img src="aquaguard-product.jpg" alt="AquaGuard Water Filter" class="product" />
+    <p>AquaGuard is your trusted solution for clean water on the go – ideal for hiking, camping, traveling, and emergency use.</p>
+  </main>
+  <footer>
+    <p>Contact: info@aquaguardofficial.com</p>
+  </footer>
 </body>
 </html>
